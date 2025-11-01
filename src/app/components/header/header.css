@@ -1,0 +1,34 @@
+
+/* Estilos del Header principal */
+header {
+    background-color: #111; /* Negro muy oscuro para el fondo */
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Sombra ligera para darle profundidad */
+}
+
+div {
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 1rem 2rem; /* Espaciado interno */
+    display: flex; /* Usar Flexbox para alinear elementos */
+    justify-content:space-between; /* Espaciar el logo y la navegación */
+    align-items: center; /* Alinear verticalmente al centro */
+}
+
+/* Estilos de la Navegación */
+nav ul {
+    list-style: none; /* Quitar viñetas */
+    display: flex; /* Usar Flexbox para poner los enlaces en línea */
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px; /* Espaciado dentro de cada enlace */
+    display: block; /* Para que el padding funcione bien */
+    font-size: 1em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #333; /* Un gris oscuro sutil al pasar el ratón */
+    border-radius: 4px; /* Bordes ligeramente redondeados */
+}
