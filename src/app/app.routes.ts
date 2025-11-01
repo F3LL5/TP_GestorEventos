@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
-import { GestorEventos } from './pages/gestor-eventos/gestor-eventos';
+import { CrearEvento } from './pages/crear-evento/crear-evento';
 
 export const routes: Routes = [
 
-  { path: 'gestionEventos', component: GestorEventos },
+  { path: 'crearEvento', component: CrearEvento },
 
-  { path: '', pathMatch: 'full', redirectTo: "/gestionEventos" },
-  { path: '**', redirectTo: "/gestionEventos" }
+  { path: '', pathMatch: 'full', redirectTo: "/crearEvento" },
+  { path: '**', redirectTo: "/crearEvento" }
 ];

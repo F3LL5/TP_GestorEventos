@@ -1,0 +1,49 @@
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1.5rem;
+  box-shadow: 0px 0px 4px rgb(255, 255, 255,0.2);
+  border-radius: 1rem;
+}
+
+.form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  margin-bottom: 0.3rem;
+}
+
+
+/* Estilos de Imputs */
+input, select, textarea {
+  background: none;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-style: solid;
+  border-radius: 0.4rem;
+  padding: 0.5rem 0.8rem;
+}
+
+input, ::placeholder, option {
+  color: rgba(255, 255, 255, 0.425);
+}
+
+/* Estilos del boton */
+.btn-container {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 1rem;
+}
+
+.btn {
+  background-color: rgb(77, 77, 77);
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  max-width: 50%;
+}

@@ -8,6 +8,7 @@ html {
   background-color: rgb(15, 15, 15);
 }
 
-a, p, h1, h2, h3, h4, h5 {
+a, p, h1, h2, h3, h4, h5, label {
   color: white;
 }
+
